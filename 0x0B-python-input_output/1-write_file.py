@@ -5,4 +5,4 @@
 def number_of_lines(filename=""):
     '''Method for reading from file.'''
     with open(filename, "r", encoding="utf-8") as f:
-        return len(f.readlines())
+        return (f.write(text))
