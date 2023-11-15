@@ -1,4 +1,4 @@
--- Temp #0
+-- Temperatures #0
 -- select city, average
 SELECT city, AVG(value) AS "avg_temp" FROM temperatures
 GROUP BY city
