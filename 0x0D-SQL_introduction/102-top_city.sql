@@ -1,4 +1,4 @@
--- Temp #1
+-- Temperatures #1
 -- display top 3 city, avg(temp) July to August
 SELECT city, AVG(value) AS "avg_temp" FROM temperatures
 WHERE month = 7 OR month = 8
